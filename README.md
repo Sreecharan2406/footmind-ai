@@ -1,5 +1,5 @@
 # ⚽ FootMind AI — Football Analytics Dashboard
-Website-https://footmind-ai.vercel.app/login
+
 An AI-powered football analytics dashboard that provides real-time insights, tactical suggestions, and match reports for coaches.
 
 ---
@@ -65,6 +65,4 @@ An AI-powered football analytics dashboard that provides real-time insights, tac
 
 Built by Sreecharan 
 
-⭐ If you like this project
-
-Give it a star ⭐ on GitHub!
+Website Link- https://footmind-ai.vercel.app/login
