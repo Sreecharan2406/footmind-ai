@@ -1,68 +1,62 @@
-# ⚽ FootMind AI — Football Analytics Dashboard
+FootMind AI ⚽
 
-An AI-powered football analytics dashboard that provides real-time insights, tactical suggestions, and match reports for coaches.
+An AI-powered football analytics dashboard built for coaches who want real-time insights, tactical guidance, and structured match reports — all in one place.
 
----
+🔗 Live Demo: footmind-ai.vercel.app
 
-## 🚀 Features
+Overview
+FootMind AI gives football coaches a smarter way to analyze performance. Enter your match data, chat with an AI coach for tactical advice, and generate clean match reports instantly. Built with Next.js and designed to be upgraded with real AI as the project grows.
 
-- 📊 **Performance Dashboard**
-  - Tracks passes, accuracy, turnovers
-  - Clean and modern UI
+Features
+Performance Dashboard
+Track passes, accuracy percentages, and turnovers in a clean, coach-friendly interface that updates in real time.
+AI Coach (Chat Interface)
+Ask questions about your match and get tactical suggestions based on your team's passing accuracy, turnover rate, and patterns of play.
+Match Report Generator
+Auto-generate structured reports that highlight your team's strengths, weaknesses, and key recommendations after each game.
+Data Visualization
+Accuracy trends and performance stats rendered as charts so you can spot patterns at a glance.
+Coach Login System
+Personalized dashboard with your name and profile loaded dynamically on sign-in.
+Persistent Data
+Reports are saved locally so nothing is lost between sessions — even after a page refresh.
 
-- 🤖 **AI Coach**
-  - Chat-based assistant for tactical insights
-  - Suggests improvements based on match data
+Tech Stack
+LayerTechnologyFrameworkNext.js 14 (App Router)UIReact + Tailwind CSSIconsLucide ReactChartsRechartsAICustom API routes (OpenAI-ready)DeploymentVercel
 
-- 📄 **Match Report Generator**
-  - Generates structured match summaries
-  - Highlights strengths, weaknesses, and recommendations
+Getting Started
+bash# Clone the repository
+git clone https://github.com/Sreecharan2406/footmind-ai.git
+cd footmind-ai
 
-- 📈 **Data Visualization**
-  - Accuracy trends displayed using charts
+# Install dependencies
+npm install
 
-- 🔐 **Login System**
-  - Personalized coach dashboard
-  - Dynamic name + profile
+# Run the development server
+npm run dev
+Open http://localhost:3000 to view it in the browser.
 
-- 💾 **Persistent Data**
-  - Reports saved using localStorage
-  - Survives page refresh
+Project Structure
+footmind-ai/
+├── app/          # Next.js App Router pages & API routes
+├── components/   # Reusable UI components
+├── hooks/        # Custom React hooks
+├── lib/          # Utility functions
+├── public/       # Static assets
+└── styles/       # Global styles
 
----
+Roadmap
 
-## 🛠 Tech Stack
+ Real AI integration via OpenAI API
+ Database backend with Supabase or Firebase
+ Multi-user authentication
+ Team & match management system
+ Advanced analytics — xG, heatmaps, possession stats
+ Save and compare multiple match reports
 
-- **Frontend:** Next.js (App Router), React  
-- **Styling:** Tailwind CSS  
-- **Icons:** Lucide React  
-- **Charts:** Recharts  
-- **AI (Mock):** Custom API routes (OpenAI-ready)
 
----
+Author
+Built by Sreecharan — GitHub
 
-## 🧠 AI Capabilities
 
-- Provides tactical suggestions based on:
-  - Passing accuracy
-  - Turnovers
-  - User questions
-
-- Generates readable match reports
-
-> ⚠️ Currently using mock AI logic (can be upgraded to OpenAI API)
-
----
-📌 Future Improvements
-🔥 Real AI integration (OpenAI API)
-🗄 Database (Supabase / Firebase)
-👥 Multi-user authentication
-⚽ Team & match management system
-📊 Advanced analytics (xG, heatmaps)
-📁 Save multiple match reports
-
-👨‍💻 Author
-
-Built by Sreecharan 
-
-Website Link- https://footmind-ai.vercel.app/login
+⚠️ Currently uses mock AI logic. Drop in your OpenAI API key in the API routes to go live with real responses.
