@@ -1,4 +1,4 @@
-FootMind AI ⚽
+FootMind AI 
 
 An AI-powered football analytics dashboard built for coaches who want real-time insights, tactical guidance, and structured match reports — all in one place.
 
